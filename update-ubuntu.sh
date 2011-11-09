@@ -1,4 +1,5 @@
 #!/bin/sh
+# wget -qO- https://raw.github.com/obazoud/linux-bootstrap/master/update-ubuntu.sh | sh
 
 sudo aptitude --assume-yes install aptitude
 sudo aptitude --assume-yes --quiet update
