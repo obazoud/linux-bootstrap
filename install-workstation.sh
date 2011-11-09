@@ -14,4 +14,15 @@ sudo aptitude --assume-yes install git
 
 # tig
 sudo aptitude --assume-yes install ncurses-dev
+# git clone git://repo.or.cz/tig.git
+# make && make install
+
+# dropbox
+sudo aptitude --assume-yes install nautilus-dropbox
+
+# skype
+sudo aptitude --assume-yes install skype
+
+# xchat
+sudo aptitude --assume-yes install xchat
 
