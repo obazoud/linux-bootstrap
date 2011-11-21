@@ -1,4 +1,5 @@
 #!/bin/sh
+# wget -qO- https://raw.github.com/obazoud/linux-bootstrap/master/install-workstation.sh | sh
 
 # Chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
