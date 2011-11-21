@@ -11,7 +11,7 @@ sudo aptitude --assume-yes install google-chrome-unstable
 sudo aptitude --assume-yes install build-essential
 
 # git
-sudo aptitude --assume-yes install git
+# sudo aptitude --assume-yes install git
 
 # tig
 sudo aptitude --assume-yes install ncurses-dev
