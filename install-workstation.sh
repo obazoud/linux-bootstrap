@@ -11,7 +11,7 @@ sudo aptitude --assume-yes install google-chrome-unstable
 sudo aptitude --assume-yes install build-essential
 
 # git
-# sudo aptitude --assume-yes install git
+# http://www.barregren.se/blog/how-install-git-source-ubuntu
 
 # tig
 sudo aptitude --assume-yes install ncurses-dev
@@ -20,4 +20,20 @@ sudo aptitude --assume-yes install ncurses-dev
 
 # dropbox / skype / xchat
 sudo aptitude --assume-yes install nautilus-dropbox skype xchat
+
+# software
+sudo aptitude --assume-yes install mysql-server
+
+# download
+# jdk / maven
+# eclipse / STS
+# vmplayer / virtualbox
+# node.js / npm
+sudo aptitude --assume-yes install libssl-dev
+
+# gedit extension coffeescript
+
+# configuration
+# .bashrc
+# ssh
 
