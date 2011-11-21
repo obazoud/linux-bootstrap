@@ -19,7 +19,7 @@ sudo aptitude --assume-yes install ncurses-dev
 # make && make install
 
 # dropbox / skype / xchat
-sudo aptitude --assume-yes install nautilus-dropbox skype xchat
+sudo aptitude --assume-yes install nautilus-dropbox skype xchat gimp
 
 # software
 sudo aptitude --assume-yes install mysql-server
