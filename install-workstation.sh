@@ -20,13 +20,18 @@ sudo aptitude --assume-yes install ncurses-dev
 
 # dropbox / skype / xchat
 sudo aptitude --assume-yes install nautilus-dropbox skype xchat gimp
+sudo aptitude --assume-yes remove vim-tiny
+sudo aptitude --assume-yes install vim
 
 # software
-sudo aptitude --assume-yes install mysql-server
+sudo aptitude --assume-yes install mysql-server apache2
 
+sudo aptitude --assume-yes install dconf-tools nautilus-open-terminal
 # download
 # jdk / maven
 # eclipse / STS
+# fix: http://askubuntu.com/questions/66356/gdk-gtk-warnings-and-errors-from-the-command-line
+sudo aptitude --assume-yes install gtk2-engines-pixbuf
 # vmplayer / virtualbox
 # node.js / npm
 sudo aptitude --assume-yes install libssl-dev
@@ -36,4 +41,16 @@ sudo aptitude --assume-yes install libssl-dev
 # configuration
 # .bashrc
 # ssh
+
+# virtual box
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian oneiric contrib"  >> /etc/apt/sources.list.d/google.list' 
+wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+sudo aptitude --assume-yes update
+sudo aptitude --assume-yes install virtualbox-4.1
+
+# stuff
+sudo aptitude --assume-yes install dos2unix tofrodos elinks
+sudo aptitude --assume-yes install g++ curl libssl-dev apache2-utils
+
+
 
