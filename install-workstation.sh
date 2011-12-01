@@ -23,6 +23,9 @@ sudo aptitude --assume-yes install nautilus-dropbox skype xchat gimp
 sudo aptitude --assume-yes remove vim-tiny
 sudo aptitude --assume-yes install vim
 
+# scrollbars
+sudo aptitude --assume-yes remove overlay-scrollbar liboverlay-scrollbar-0.1-0
+
 # software
 sudo aptitude --assume-yes install mysql-server apache2
 
